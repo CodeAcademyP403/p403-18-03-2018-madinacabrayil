@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.black{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.icon{
+    color: #d0cdcd;
+    font-size: 20px;
+    margin-top: 15px;
+    float: right;
+}
+.icon1{
+    margin-right: 20px;
+}
+.grey{
+    height: 70px;
+    width: 100%;
+    background-color: #3b37359a;
+    padding-top: 5px;
+ 
+    
+}
+.main{
+    height:600px;
+    width: 100%;
+    background-image: url("../images/coffee1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* NAVIGATION*/ 
+a.link{
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}   
+img.logo{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.menu li{
+       float:right;
+}
+.menu li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d0cdcd;
+    text-decoration: none;
+    border-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 72px;
+}
+.menu li a:hover{
+    color: brown;
+    text-decoration-line: underline;    
+    transition: all 0.3s linear;
+}
+p1{
+    font-size: 95px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left:300px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    }
+p2{
+    font-size: 35px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    margin-left:300px;
+    
+    }
+   
+    .firstline{
+        height: 4px;
+        width:600px;
+        background-color: #ffffff;
+        margin-left: 215px;
+        margin-top: 20px;
+        margin-bottom: 2px;
+    }
+    .secondline{
+        height: 2px;
+        width:600px;
+        background-color: #ffffff;
+        margin-left: 215px;
+        margin-bottom: 20px;
+
+    }
+p3{
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.info1{
+    margin-left:360px;
+  
+}
+.info2{
+    margin-left:300px;
+}
+.info3{
+    margin-left:450px;
+}
+/* Product */
+.product{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+}
+h2{
+    margin-top: 100px;
+   margin-left: 40%;
+    font-size: 45px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+}
+
+.firstline1{
+    height: 4px;
+    width:55px;
+    background-color: #333;
+    margin-left: 580px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.secondline1{
+    height: 2px;
+    width:55px;
+    background-color: #333;
+    margin-left: 580px;
+    margin-bottom: 100px;
+
+}
+.image1{
+background-image: url("../images/img1.png");
+background-repeat: no-repeat;
+background-size: cover;
+ opacity: 0.8;
+margin: 18px;
+height: 500px; 
+width:467px; 
+}
+
+.image2{
+    background-image: url("../images/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin: 18px;
+    height: 500px; 
+    width:467px; 
+}
+.image3{
+    background-image: url("../images/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin: 18px;
+    height: 500px; 
+    width:467px; 
+}
+h3{
+    padding-left: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3:hover{
+    color: palevioletred;
+}
+.firstline2{
+    height: 4px;
+    width:50px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 2px;
+}
+.secondline2{
+    height: 2px;
+    width:50px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 20px;
+}
+p4{
+   font-size: 20px;
+   color: #ffffff;
+    margin: auto;
+    padding-left: 170px;
+}
+.ourproduct{
+ 
+    width: 100%;
+    margin: auto;
+    
+}
+h2.our{
+    margin-top: 50px;
+}
+.firstline3{
+    height: 4px;
+    width:55px;
+    background-color: #333;
+    margin-left: 530px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.secondline3{
+    height: 2px;
+    width:55px;
+    background-color: #333;
+    margin-left: 530px;
+    margin-bottom: 50px;
+
+}
+img.coffee{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+   transition: .3s;
+}
+img.coffee:hover{
+opacity: 0.6;
+
+}
+span.cof{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+    margin-left: 40px;  
+}
+p5{
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #000000;
+    margin:10px 60px;
+
+}
+span.pink{
+    color:#ff6e76;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+}
+button{
+    color: white;
+     background-color: #ff6e76;
+     border-radius: 1%;
+     border:solid 1px #ff6e76;
+     padding: 10px 15px;
+     margin: 10px 60px;
+     transition: .3s;
+        
+ }
+ button:hover{
+     background-color: #333;
+     border: #333;
+     margin-bottom: 50px;
+ }
+    /* End of Product */
+
+.coffeeshop{
+    background-image: url("../images/coffee3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width:100%;
+    opacity: 0.8;
+    padding-top: 200px;
+    margin-top: 100px;
+
+}
+p1.cofshop{
+    margin-top: 100px;
+    font-size: 70px;
+}
+.firstline2.cof{
+    margin-left: 40%;
+    margin-top:30px; 
+    
+}
+.secondline2.cof{
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+p3.cof{
+    font-size: 25px;
+    margin-left: 250px;
+}
+button.cof{
+    margin-left: 570px;
+    background-color: #ef4b54;
+    border-color: #ef4b54;
+    padding: 15px 25px;
+    transition: .3s;
+}
+button.cof:hover{
+    background-color: #243238;
+}
+p.info{
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+  font-weight: 400;
+font-style: normal;
+font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: #a1a1a1;
+}
+p.sam{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #211f1e;
+}
+p.italic{
+    font-style: italic;
+    color: #a1a1a1;
+    margin-left: 480px;
+}
+.pictures{
+    width: 100%;
+    height: 241px;
+    position: relative;
+}
+img.pic{
+   margin: 0px;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0px;  
+    transition: .3s;
+}
+    img.pic:hover{
+        opacity: 0.5;
+}
+.address{
+    width: 100%;
+    height: 400px;
+  background-color: #211f1e; 
+ margin-top: 109px;
+}
+p.add{
+
+    font-style: italic;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    color: wheat;
+}
+p.add:nth-child(1){
+    padding-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
